@@ -52,35 +52,35 @@ stages:
         SourceFolder: '$(System.DefaultWorkingDirectory)/.next'
         Contents: '**'
         TargetFolder: '$(Build.ArtifactStagingDirectory)/.next'
-        CleanTargetFolder: true
+        CleanTargetFolder: false
 
     - task: CopyFiles@2
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)/public'
         Contents: '**'
         TargetFolder: '$(Build.ArtifactStagingDirectory)/public'
-        CleanTargetFolder: true
+        CleanTargetFolder: false
 
     - task: CopyFiles@2
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)'
         Contents: 'package*.json'
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
-        CleanTargetFolder: true
+        CleanTargetFolder: false
 
     - task: CopyFiles@2
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)'
         Contents: 'next.config.js'
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
-        CleanTargetFolder: true
+        CleanTargetFolder: false
 
     - task: CopyFiles@2
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)'
         Contents: 'next-i18next.config.js'
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
-        CleanTargetFolder: true
+        CleanTargetFolder: false
 
 
     - task: ArchiveFiles@2
