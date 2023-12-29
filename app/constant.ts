@@ -161,18 +161,28 @@ export const DEFAULT_MODELS = [
   {
     name: "qwen-turbo",
     available: true,
+    provider: {
+      id: "alibaba",
+      providerName: "Alibaba",
+      providerType: "alibaba",
+    },
   },
   {
     name: "qwen-plus",
     available: true,
+    provider: {
+      id: "alibaba",
+      providerName: "Alibaba",
+      providerType: "alibaba",
+    },
   },
   {
     name: "ERNIE-Bot-turbo",
     available: true,
     provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
+      id: "baidu",
+      providerName: "Baidu",
+      providerType: "baidu",
     },
   },
   {
