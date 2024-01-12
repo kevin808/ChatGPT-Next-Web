@@ -177,12 +177,12 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "GeminiPro",
+    name: "gemini-pro",
     available: true,
     provider: {
-      id: "oneapi",
+      id: "google",
       providerName: "Google",
-      providerType: "oneapi",
+      providerType: "google",
     },
   },
 ] as const;
