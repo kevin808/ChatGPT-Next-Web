@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # local env files
-.env*.local
+*.local
 
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -44,7 +42,6 @@ dev
 .vscode
 .idea
 
->>>>>>> d6c1e982c2a4cea87750a8057ab0c9848bedec4b
 # docker-compose env files
 .env
 

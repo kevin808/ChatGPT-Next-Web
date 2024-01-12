@@ -118,7 +118,7 @@ export const DEFAULT_MODELS = [
     available: true,
     provider: {
       id: "openai",
-      providerName: "Azure",
+      providerName: "OpenAI",
       providerType: "openai",
     },
   },
@@ -127,7 +127,7 @@ export const DEFAULT_MODELS = [
     available: true,
     provider: {
       id: "openai",
-      providerName: "Azure",
+      providerName: "OpenAI",
       providerType: "openai",
     },
   },
@@ -136,7 +136,7 @@ export const DEFAULT_MODELS = [
     available: true,
     provider: {
       id: "openai",
-      providerName: "Azure",
+      providerName: "OpenAI",
       providerType: "openai",
     },
   },
@@ -145,7 +145,7 @@ export const DEFAULT_MODELS = [
     available: true,
     provider: {
       id: "openai",
-      providerName: "Azure",
+      providerName: "OpenAI",
       providerType: "openai",
     },
   },
@@ -177,12 +177,12 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gemini-pro",
+    name: "GeminiPro",
     available: true,
     provider: {
-      id: "google",
+      id: "oneapi",
       providerName: "Google",
-      providerType: "google",
+      providerType: "oneapi",
     },
   },
 ] as const;
