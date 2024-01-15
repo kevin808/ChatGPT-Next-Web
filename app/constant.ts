@@ -114,6 +114,10 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
+    name: "gemini-pro",
+    available: true,
+  },
+  {
     name: "qwen-turbo",
     available: true,
   },
@@ -126,15 +130,15 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
+    name: "qwen-max-longcontext",
+    available: true,
+  },
+  {
     name: "ERNIE-Bot-turbo",
     available: true,
   },
   {
     name: "ERNIE-Bot-4",
-    available: true,
-  },
-  {
-    name: "gemini-pro",
     available: true,
   },
 ] as const;
