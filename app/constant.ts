@@ -141,12 +141,12 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-16k",
+    name: "gemini-pro",
     available: true,
     provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
+      id: "google",
+      providerName: "Google",
+      providerType: "google",
     },
   },
   {
@@ -168,6 +168,24 @@ export const DEFAULT_MODELS = [
     },
   },
   {
+    name: "qwen-max",
+    available: true,
+    provider: {
+      id: "alibaba",
+      providerName: "Alibaba",
+      providerType: "alibaba",
+    },
+  },
+  {
+    name: "qwen-max-longcontext",
+    available: true,
+    provider: {
+      id: "alibaba",
+      providerName: "Alibaba",
+      providerType: "alibaba",
+    },
+  },
+  {
     name: "ERNIE-Bot-turbo",
     available: true,
     provider: {
@@ -177,12 +195,12 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gemini-pro",
+    name: "ERNIE-Bot-4",
     available: true,
     provider: {
-      id: "google",
-      providerName: "Google",
-      providerType: "google",
+      id: "baidu",
+      providerName: "Baidu",
+      providerType: "baidu",
     },
   },
 ] as const;
