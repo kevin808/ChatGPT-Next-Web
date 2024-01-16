@@ -110,12 +110,8 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k",
-    available: true,
-  },
-  {
     name: "gemini-pro",
-    available: true,
+    available: false,
   },
   {
     name: "qwen-turbo",
