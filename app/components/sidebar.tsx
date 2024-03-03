@@ -160,6 +160,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           Default model: gpt-3.5-turbo.
         </div>
+        <div className={styles["sidebar-sub-title"]}>Your AI assistant.</div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
