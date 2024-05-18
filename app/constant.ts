@@ -183,15 +183,6 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "qwen-max",
-    available: true,
-    provider: {
-      id: "alibaba",
-      providerName: "Alibaba",
-      providerType: "alibaba",
-    },
-  },
-  {
     name: "qwen-max-longcontext",
     available: true,
     provider: {
