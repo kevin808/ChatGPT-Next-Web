@@ -28,6 +28,8 @@ jobs:
           tags: |
             type=raw,value=latest
             type=ref,event=tag
+            type=raw,value=${{ format('yyyyMMdd', github.event.head_commit.timestamp) }}
+
       
       - 
         name: Set up QEMU
