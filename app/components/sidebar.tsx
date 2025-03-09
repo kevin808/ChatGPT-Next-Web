@@ -251,7 +251,7 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title="NextChat"
-        subTitle="Default model: gpt-4o-mini."
+        subTitle="Default model: DeepSeek-R1."
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
